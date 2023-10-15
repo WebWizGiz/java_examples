@@ -1,4 +1,4 @@
-public class stringDemo {
+public class stringsDemo {
     public static void main(String[] args) {
         String mesaj = "Bugun hava cok guzel.";
         System.out.println(mesaj);
