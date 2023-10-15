@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/Test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/datatypes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/variables" isTestSource="false" />
     </content>
