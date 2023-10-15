@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/datatypes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/recapDemo1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/switchDemo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/variables" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
