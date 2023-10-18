@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/stringsDemo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/switchDemo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/variables" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/sayiBulma" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
