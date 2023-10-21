@@ -1,15 +1,20 @@
 public class Main {
     public static void main(String[] args) {
 
-        int not = 55;
-        int kredi = 100000;
-        double notOrtalamasi = 50.5;
-        String isim = "Engin Demirog";
-        boolean sistemeGirisYapmisMi = true;
+        int not = 45;
+        //50 ve uzeri   : Gecti
+        //40-49         : Butunleme
+        //0-39          : Kaldi
 
-        //integar
-        System.out.println(not);
-
+        if (not >= 55) {
+            System.out.println("Gecti!!");
+        } else if (not >= 40) {
+            System.out.println("Butunleme");
+        } else {
+            System.out.println("Kaldi");
+        }
 
     }
+
+
 }
