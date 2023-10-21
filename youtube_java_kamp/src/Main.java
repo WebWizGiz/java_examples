@@ -1,18 +1,17 @@
 public class Main {
     public static void main(String[] args) {
+//DONGULER
 
-        int not = 45;
-        //50 ve uzeri   : Gecti
-        //40-49         : Butunleme
-        //0-39          : Kaldi
+       /* for (int i=1; i<=10; i+=2){
+            System.out.println(i);
+        }*/
 
-        if (not >= 55) {
-            System.out.println("Gecti!!");
-        } else if (not >= 40) {
-            System.out.println("Butunleme");
-        } else {
-            System.out.println("Kaldi");
+        int sayi = 10;
+        while (sayi<=100) {
+            System.out.println(sayi);
+            sayi = sayi +10;
         }
+
 
     }
 
