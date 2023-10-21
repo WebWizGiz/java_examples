@@ -5,7 +5,7 @@ public class Main {
         int kredi = 100000;
         double notOrtalamasi = 50.5;
         String isim = "Engin Demirog";
-        boolean
+        boolean sistemeGirisYapmisMi = true;
 
         //integar
         System.out.println(not);
