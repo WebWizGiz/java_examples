@@ -12,6 +12,20 @@ public class Main {
             sayi = sayi +10;
         }
 
+        int sayi2 = 11;
+
+        do{
+            System.out.println(sayi2);
+            sayi = sayi + 10;
+        }while (sayi2>100);
+
+
+        String urun = "laptop";
+
+        for (int i=1; i<10; i++){
+            System.out.println(urun+i);
+        }
+
 
     }
 
