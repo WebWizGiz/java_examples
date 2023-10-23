@@ -1,10 +1,18 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
-        int[] sayilar = new int[]{1,2,3};
+     CreditManager[] credits = new CreditManager[3];
 
-        Product[] urunler = new Product[]{};
+        ArrayList<CreditManager> credits = new ArrayList<CreditManager>();
+        credits.add(new MortgageManager());
+        credits.add(new VehicleManager());
+        credits.add(new OfficerCredit());
 
+     for (CreditManager credit : credits){
+         credit.calculate();
+     }
 
     }
 }
