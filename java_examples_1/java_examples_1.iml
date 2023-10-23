@@ -17,7 +17,12 @@
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/stringsDemo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/switchDemo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/variables" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/arkadasSayilar" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/mukemmelSayi" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/sayiBulma" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/sesliHarfler" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/methods2" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

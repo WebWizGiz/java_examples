@@ -1,4 +1,4 @@
-public class mukemmelSayi {
+public class mukemmelSayii {
     public static void main(String[] args) {
 
         //6 --> 1,2,3 = 6
