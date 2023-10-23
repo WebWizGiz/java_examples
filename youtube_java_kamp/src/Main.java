@@ -1,54 +1,36 @@
 public class Main {
     public static void main(String[] args) {
 
-       for (int i = 0; i<4; i++){
-           mesajVer("mahmut");
-       }
+        int[] sayilar = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-       mesajVer("gizem");
-       mesajVer("gokhan");
+        int arananSayi = 3;
+        boolean varMi = false;
 
+        for (int sayi : sayilar) {
+            if (sayi == arananSayi){
+                varMi = true;
+                break;
 
-        hesapla();
-        hesapla();
+            }
+        }
 
-        System.out.println(topla(6,3));
-        System.out.println(toplananIkiSayininYuzdeOnu(10,90));
-        topla(6,98);
-        topla(6,5);
-
-
-// DRY Do Not Repeat Yourself
-
-    }
-
-
-    public static void mesajVer(String isim) {
-        System.out.println("Merhaba "+ isim);
+        String mesaj = "";
+        if (varMi){
+            mesaj = "Sayi mevcuttur: " + arananSayi;
+            mesajVer(mesaj);
+        }else {
+            mesajVer("Sayi mevcut degildir: " +arananSayi);
+        }
 
     }
-
-    public static void hesapla() {
-        System.out.println("Hesaplandi");
+    public static void mesajVer(){
+        System.out.println(mesaj);
     }
-
-    public static int topla(int sayi1, int sayi2){
-        int toplam = sayi1 + sayi2;
-        return toplam;
+    public static boolean sayiBul(int[] sayilar, int arananSayi)
 
 
 
     }
-    //toplanan iki sayinin %10unu bul
-    public static double toplananIkiSayininYuzdeOnu(int sayi1, int sayi2) {
-        int toplam = topla(sayi1, sayi2);
-        double sonuc = toplam * 10 / 100;
-        return sonuc;
-    }
-
-    public static double krediHesapla(double krediMiktari){
-    //hesaplamalar yapilir
-    return 125000;
-    }
-
-}
+//bir fonksiyon yaz  boolean dondur - sayiBul
+//iki parametre alsin. P1 : dizi P2 : 3
+//3 sayisi dizide vardir
