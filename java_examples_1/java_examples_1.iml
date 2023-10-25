@@ -27,6 +27,8 @@
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/methods" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/methods2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/reCapDemo_Classes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/inheritance/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/youtubeED/inheritanceDemo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/youtubeED/methodOverloading/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -2,12 +2,12 @@ public class Main_0 {
     public static void main(String[] args) {
 
             //reference type
-        CustomerManager customerManager = new CustomerManager();
-        CustomerManager customerManager1 = new CustomerManager();
+        CustomerManagerInheritance customerManager = new CustomerManagerInheritance();
+        CustomerManagerInheritance customerManager1 = new CustomerManagerInheritance();
         customerManager = customerManager1;
         customerManager.Add();
-        customerManager.Remove();
-        customerManager.Update();
+       // customerManager.Remove();
+       // customerManager.Update();
 
             //value type
         int sayi1 = 10;
