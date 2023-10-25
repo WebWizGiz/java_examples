@@ -1,5 +1,16 @@
 public class Product {
 
+    public Product(int id, String name, String description, double price, int stockAmount){
+        System.out.println("Yapici blok calisti.");
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.stockAmount = stockAmount;
+        this.description = description;
+    }
+    public Product(){
+
+    }
     //attribute || field
     private int id;
     private String name;
@@ -51,7 +62,7 @@ public class Product {
         this.stockAmount = stockAmount;
     }
 
-    public String getKod() {
+    public String getKod() {            // read only yaparak kullanicinin mudahale etmesini engelle, kodu program getirsin
         return this.name.substring(0,1) + id;
     }
 
