@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-public class Try {
+public class Gui_intro {
     public static void main(String[] args) {
 
         String name = JOptionPane.showInputDialog("Enter your name: ");
