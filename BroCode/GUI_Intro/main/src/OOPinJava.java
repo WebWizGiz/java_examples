@@ -13,7 +13,7 @@ public class OOPinJava {
         System.out.println(myCar2.model);
         System.out.println(myCar2.make);
 
-        //to call the methods from the car class
+        //to call the methods from the car class (object)
         myCar1.drive();
         myCar1.brake();
 
