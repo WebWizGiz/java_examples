@@ -1,4 +1,8 @@
-public class IndividualCustomer extends Customer{
+package oop1;
+
+import oop1.Customer;
+
+public class IndividualCustomer extends Customer {
 
     private String firstName;
     private String lastName;
