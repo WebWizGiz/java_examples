@@ -7,7 +7,7 @@ public class Depo {                     //tum metotlari Depo classinda olusturma
 
     static Scanner scan = new Scanner(System.in);      //kullanicidan veri almak icin Scanner objesini olusturuyorum
 
-    public static void anaMenu() {
+    public static void anaMenu() throws InterruptedException {
 
         String tercih = "";
         do {
@@ -23,9 +23,11 @@ public class Depo {                     //tum metotlari Depo classinda olusturma
             tercih = scan.nextLine();
 
             switch (tercih) {
-                case "1":  //okul bilgileri
+                case "1":  //okul bilgileri icin ayri bir classa ihtiyacim olacak
+                    Depo.okulBilgileriniYazdir();
                     break;
                 case "2":  //ogretmen menu
+                    Ogretmen.ogretmenMenu();
                     break;
                 case "3":  //ogrenci menu
                     break;
@@ -38,9 +40,22 @@ public class Depo {                     //tum metotlari Depo classinda olusturma
 
         } while (!tercih.equalsIgnoreCase("q"));
 
+        Depo.projeDurdur();
 
 
+    }
 
+    public static void okulBilgileriniYazdir() throws InterruptedException {
+        System.out.println("==========YILDIZ KOLEJI==========\n" +
+                "\t\t Adres : " + Okul.adres + "\n" +
+                "\t\t Telefon : " + Okul.telefon + "\n");
+        Thread.sleep(5000);  // code bekletmek istediginde kullan ici milisaniye
+
+
+    }
+
+    public static void projeDurdur() {
+        System.out.println("Okul projesinden ciktiniz.");
     }
 
 
