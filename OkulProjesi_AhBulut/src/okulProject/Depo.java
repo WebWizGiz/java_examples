@@ -1,0 +1,47 @@
+package okulProject;
+
+import java.util.Scanner;
+import java.nio.channels.ScatteringByteChannel;
+
+public class Depo {                     //tum metotlari Depo classinda olusturmak istiyorum
+
+    static Scanner scan = new Scanner(System.in);      //kullanicidan veri almak icin Scanner objesini olusturuyorum
+
+    public static void anaMenu() {
+
+        String tercih = "";
+        do {
+            System.out.println("==========YILDIZ KOLEJI==========\n" +
+                    "========== ANA MENU ==========\n" +
+                    "\n" +
+                    "\t     1- Okul Bilgileri Goruntule\n" +
+                    "\t     2- Ogretmen Menu\n" +
+                    "\t     3- Ogrenci Menu\n" +
+                    "\t     Q- CIKIS\n");
+
+            System.out.println("Lutfen menuden tercihinizi yapiniz: ");
+            tercih = scan.nextLine();
+
+            switch (tercih) {
+                case "1":  //okul bilgileri
+                    break;
+                case "2":  //ogretmen menu
+                    break;
+                case "3":  //ogrenci menu
+                    break;
+                case "q":
+                case "Q":
+                    break;
+                default:
+                    System.out.println("Lutfen gecerli bir tercih giriniz.");
+            }
+
+        } while (!tercih.equalsIgnoreCase("q"));
+
+
+
+
+    }
+
+
+}
