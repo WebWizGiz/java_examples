@@ -26,10 +26,11 @@ public class Depo {                     //tum metotlari Depo classinda olusturma
                 case "1":  //okul bilgileri icin ayri bir classa ihtiyacim olacak
                     Depo.okulBilgileriniYazdir();
                     break;
-                case "2":  //ogretmen menu
+                case "2":  //ogretmen menu buraya gelmeli
                     Ogretmen.ogretmenMenu();
                     break;
-                case "3":  //ogrenci menu
+                case "3":  //ogrenci menu buraya gelmeli
+                    Ogrenci.ogrenciMenu();
                     break;
                 case "q":
                 case "Q":
@@ -56,6 +57,7 @@ public class Depo {                     //tum metotlari Depo classinda olusturma
 
     public static void projeDurdur() {
         System.out.println("Okul projesinden ciktiniz.");
+        System.exit(0); //bunu yazinca sstem tamamen durmus oluyor.
     }
 
 
