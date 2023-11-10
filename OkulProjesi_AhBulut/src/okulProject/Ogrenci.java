@@ -67,7 +67,6 @@ public class Ogrenci {
             }
         } while (!tercih.equalsIgnoreCase("q"));                 // q Q basilmadigi surece bunu dondurmeye devam et
         Depo.projeDurdur();
-
     }
 
     private static void tcNoIleOgrenciSilme() throws InterruptedException {
@@ -82,6 +81,7 @@ public class Ogrenci {
             boolean sonuc = sonucValue.equals(silinecekValue);
         } catch (Exception e) {
             System.out.println("Istediginiz TC no ile ogrenci bulunamadi");
+        }
     }
 
     private static void ogrenciEkle() {
@@ -101,8 +101,9 @@ public class Ogrenci {
         System.out.println("Sube: ");
         String sube = scan.nextLine();
 
+        //kullanicidan aldigim bilgileri ogrenciMap'e ekliyorum
         String key = tcNo;
-        String value = isim + ", " + soyIsim + ", " + dogumYili + ", " + okulNo + ", " + sinif + ", " + sube + ", ";
+        String value = isim + ", " + soyIsim + ", " + dogumYili + ", " + okulNo + ", " + sinif + ", " + sube;
         ogrenciMap.put(key, value);
 
     }
@@ -125,7 +126,7 @@ public class Ogrenci {
             String eachValueArr[] = eachValue.split(", ");  //aralarinda virgul olan bir Stringi arraye cevirmek icin en iyi yontem .split --> "," ile indexleri bolecek
 
 
-            if (istenilenSinif.equalsIgnoreCase(eachValueArr[4]) && istenilenSube.equalsIgnoreCase(eachValueArr[5])){
+            if (istenilenSinif.equalsIgnoreCase(eachValueArr[4]) && istenilenSube.equalsIgnoreCase(eachValueArr[5])) {
                 System.out.printf("%-12s  %-6s  %-9s  %-9s  %-9s %-7s %-7s \n", eachKey, eachValueArr[0], eachValueArr[1], eachValueArr[2], eachValueArr[3], eachValueArr[4], eachValueArr[5]);
             }
         }
@@ -149,7 +150,7 @@ public class Ogrenci {
             String eachValueArr[] = eachValue.split(", ");  //aralarinda virgul olan bir Stringi arraye cevirmek icin en iyi yontem .split --> "," ile indexleri bolecek
 
 
-            if (istenilenSoyisim.equalsIgnoreCase(eachValueArr[1])){
+            if (istenilenSoyisim.equalsIgnoreCase(eachValueArr[1])) {
                 System.out.printf("%-12s  %-6s  %-9s  %-9s  %-9s %-7s %-7s \n", eachKey, eachValueArr[0], eachValueArr[1], eachValueArr[2], eachValueArr[3], eachValueArr[4], eachValueArr[5]);
             }
         }
@@ -172,6 +173,9 @@ public class Ogrenci {
             System.out.printf("%-12s  %-6s  %-9s  %-9s  %-9s %-7s %-7s \n", eachKey, eachValueArr[0], eachValueArr[1], eachValueArr[2], eachValueArr[3], eachValueArr[4], eachValueArr[5]);
         }
         Thread.sleep(5000);
-
     }
 }
+
+
+
+
