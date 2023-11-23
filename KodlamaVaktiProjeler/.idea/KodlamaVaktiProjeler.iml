@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/hipotenus hesapla/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/kdv hesaplama/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/manav/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/not ortalamasi hesaplama/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/vucut kitle indeksi/src" isTestSource="false" />
     </content>
