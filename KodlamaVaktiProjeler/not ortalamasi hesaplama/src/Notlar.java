@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class notlar {
+public class Notlar {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
