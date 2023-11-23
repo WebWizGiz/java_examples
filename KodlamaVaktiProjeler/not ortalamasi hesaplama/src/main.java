@@ -32,5 +32,13 @@ public class main {
         double sonuc = (fizik + matematik + turkce + kimya + muzik + tarih ) / 6;
 
         System.out.println("Tum notlarin ortalamasi:" + sonuc);
+
+        //Extra assignment: ternary operator to determine the message based on the condition
+
+        String mesaj = sonuc < 60 ? "Basarisiz" : "Basarili, gectiniz!!";
+        System.out.println(mesaj);
+
     }
+
+
 }
