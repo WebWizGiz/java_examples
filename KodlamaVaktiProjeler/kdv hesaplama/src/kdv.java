@@ -8,9 +8,17 @@ public class kdv {
         System.out.println("Urunun fiyati ne kadar?: ");
         double fiyat = scan.nextDouble();
 
-        double rate = 18;
 
-        double kdvliFiyat = fiyat * rate/100;
-        System.out.println("KDV'li fiyat: " + (fiyat + kdvliFiyat));
+        if (fiyat<500){
+            double kdv1 = 18;
+            double kdvliFiyat = fiyat * kdv1/100;
+            System.out.println("KDV'li fiyat: " + (fiyat + kdvliFiyat) + " KDV orani: " + (int)kdv1);
+        }else {
+            double kdv2 = 8;
+            double kdvliFiyat = fiyat * kdv2/100;
+            System.out.println("KDV'li fiyat: " + (fiyat + kdvliFiyat) + " KDV orani: " + (int)kdv2);
+        }
+
+
     }
 }
