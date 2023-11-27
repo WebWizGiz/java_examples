@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/manav/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/not ortalamasi hesaplama/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/vucut kitle indeksi/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/daire alani/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
