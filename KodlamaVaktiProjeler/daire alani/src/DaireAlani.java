@@ -14,5 +14,13 @@ public class DaireAlani {
         System.out.println("Dairenin cevresi: " + cevre);
 
 
+        //Bonus Daire Diliminin Alani: (PI*(r*r))*a / 360
+
+        System.out.println("Hesaplamak istediginiz daire diliminin merkez acisi nedir: ");
+        int a = scan.nextInt();
+
+        double daireDilimiAlani = Math.PI * yariCap * yariCap * a / 360;
+
+        System.out.println("Daire diliminin alani: " + daireDilimiAlani);
     }
 }
