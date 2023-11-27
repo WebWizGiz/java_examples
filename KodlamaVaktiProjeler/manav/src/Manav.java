@@ -13,21 +13,21 @@ public class Manav {
 
         System.out.print("Kac kilo cucumber?: ");
         double cucumberKg = scan.nextDouble();
-        System.out.print(cucumberKg + " kg cucumber " + cucumberKg*cucumber + " TL");
+        System.out.println(cucumberKg + " kg cucumber " + cucumberKg*cucumber + " TL");
 
-        System.out.println("Kac kilo apple?: ");
+        System.out.print("Kac kilo apple?: ");
         double appleKg = scan.nextDouble();
         System.out.println(appleKg + " kg apple " + appleKg*apple + " TL");
 
-        System.out.println("Kac kilo zuccini?: ");
+        System.out.print("Kac kilo zuccini?: ");
         double zucciniKg = scan.nextDouble();
         System.out.println(zucciniKg + " kg zuccini " + zucciniKg*zuccini + " TL");
 
-        System.out.println("Kac kilo tometo?: ");
+        System.out.print("Kac kilo tometo?: ");
         double tometoKg = scan.nextDouble();
         System.out.println(tometoKg + " kg tometo " + tometoKg*tometo + " TL");
 
-        System.out.println("Kac kilo eggplant?: ");
+        System.out.print("Kac kilo eggplant?: ");
         double eggplantKg = scan.nextDouble();
         System.out.println(eggplantKg + " kg eggplant " + eggplantKg*eggplant + " TL");
 
